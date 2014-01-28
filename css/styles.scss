@@ -20,10 +20,10 @@ img.hero {
 }
 
 
-h1 { font: 54px/1.5 Oswald, sans-serif; margin-top:0; padding-top: 20px; }
-h2 { font: 36px/1.5 Oswald, sans-serif; }
-h3 { font: 24px/1.5 Oswald, sans-serif; }
-p { font: 16px/1.5 "Open Sans", sans-serif;  }
+h1 { font: 54px/1.5 Oswald, sans-serif; margin-top: 0; padding-top: 20px; }
+h2 { font: 36px/1.5 Oswald, sans-serif; margin-top: 0; }
+h3 { font: 24px/1.5 Oswald, sans-serif; margin-top: 0; }
+p { font: 16px/1.5 "Open Sans", sans-serif; margin-top: 0; }
 
 a { color: #555152; }
 
@@ -116,9 +116,14 @@ span.tag {
 	background: #E9E9BE; 
 	border-radius: 10px; 
 	padding: 6px 10px; 
-	margin-right: 5px; 
+	margin-right: 5px;
+	display:inline-block;
+	margin-bottom: 14px; 
 	color: #555152; 
+	white-space: nowrap;
 }
+
+.work .link a { white-space: nowrap; }
 
 .blogs li {	padding: 20px 0; font: 24px/1.5 "Open Sans", sans-serif; border-bottom: 1px dotted #000;}
 .blogs li a {text-decoration: none;}

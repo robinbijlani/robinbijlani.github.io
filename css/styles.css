@@ -787,14 +787,17 @@ h1 {
 
 h2 {
   font: 36px/1.5 Oswald, sans-serif;
+  margin-top: 0;
 }
 
 h3 {
   font: 24px/1.5 Oswald, sans-serif;
+  margin-top: 0;
 }
 
 p {
   font: 16px/1.5 "Open Sans", sans-serif;
+  margin-top: 0;
 }
 
 a {
@@ -897,7 +900,14 @@ span.tag {
   border-radius: 10px;
   padding: 6px 10px;
   margin-right: 5px;
+  display: inline-block;
+  margin-bottom: 14px;
   color: #555152;
+  white-space: nowrap;
+}
+
+.work .link a {
+  white-space: nowrap;
 }
 
 .blogs li {
