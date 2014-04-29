@@ -863,7 +863,7 @@ nav li a:hover {
   font-style: italic;
 }
 
-.work .details {
+.work li > div {
   padding: 20px;
 }
 
@@ -889,7 +889,7 @@ nav li a:hover {
   margin-right: 0;
 }
 
-.work .details h2 {
+.work li > div h2 {
   margin: 0 0 10px;
   font: 24px/1.5 Oswald, sans-serif;
 }
