@@ -1,9 +1,11 @@
 @import 'normalize';
 @import 'main';
 
+$black: #2E2633; 
+
 
 body {
-	color: #2E2633; 
+	color: $black; 
 	background:url('../img/ticks.png');
 	font: 16px/1.5 "Open Sans", sans-serif; 
 }
@@ -23,7 +25,7 @@ img.hero {
 h1 { font: 54px/1.5 Oswald, sans-serif; margin-top: 0; padding-top: 20px; }
 h2 { font: 36px/1.5 Oswald, sans-serif; margin-top: 0; }
 h3 { font: 24px/1.5 Oswald, sans-serif; margin-top: 0; }
-p { font: 16px/1.5 "Open Sans", sans-serif; margin-top: 0; }
+p { font: 16px/1.6 "Open Sans", sans-serif; margin-top: 0; }
 
 a { color: #555152; }
 
@@ -75,6 +77,12 @@ nav li a:hover {
 }
 
 /*section.work { background:url('img/brushed.png'); }*/
+
+.work h2 .detail {
+	color: lighten($black, 50%);
+	font-style: italic;
+}
+
 
 .work .details {
 	padding: 20px;
