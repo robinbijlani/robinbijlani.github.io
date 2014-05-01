@@ -39,6 +39,7 @@ a.btn {
 	padding: 8px 18px;
 	/*margin: 20px auto;*/
 	border-radius: 3px;
+	font-size: 18px;
 }
 
 a.btn i {margin-right: 10px;}
@@ -217,7 +218,7 @@ span.tag {
 @media (max-width: 1020px) {
 	h2 { font-size: 22px;}
 	p {font-size: 14px;}
-	a.btn {font-size:14px;}
+	a.btn {font-size:18px;}
 	.wrap p { font-size: 16px;}
 	.big-text {margin-left: 280px; }
 	.wrap {width: 850px;}
@@ -235,6 +236,7 @@ span.tag {
 		margin-right: 0;
 		// border: 1px solid black;
 	}
+	h2 {font-size: 26px;}
 	.wrap {width: 700px;}
 	.wrap img {width: 230px; height: 230px;}
 	.big-text { margin-left: 250px; width: 450px;}
@@ -253,7 +255,9 @@ span.tag {
 	.wrap {width: 100%;}
 
 }
-
+@media (max-width: 520px) { 
+	h2 {font-size: 24px;}
+}
 @media (max-width: 450px) { 
 	.banner {height: 650px;}
 }
