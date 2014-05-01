@@ -164,7 +164,6 @@ span.tag {
 	width: 700px; 
 	margin: 0 auto;
 	padding-top: 10px;
-	// border: 1px solid black;
 	position: relative;
 	top: 15px;
 }
@@ -214,4 +213,9 @@ span.tag {
 		// border: 1px solid black;
 	}
 }
+
+@media (max-width: 930px) {
+	.wrap {display:none;}
+}
+
 
