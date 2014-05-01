@@ -936,38 +936,64 @@ span.tag {
 }
 
 .banner {
-  background: url("../img/title-trees2.jpg") no-repeat;
-  background-size: cover;
-  height: 250px;
+  background: #434343;
+  height: 320px;
 }
 
 .wrap {
-  width: 700px;
-  margin: 0 auto;
+  width: 900px;
+  margin: 0px auto;
   padding-top: 10px;
   position: relative;
   top: 15px;
 }
 
 .banner img {
-  width: 200px;
-  height: 200px;
+  width: 270px;
+  height: 270px;
   max-width: 100%;
-  border-radius: 100px;
+  border-radius: 135px;
   float: left;
 }
 
 .big-text {
+  width: 570px;
   text-align: center;
-  margin: 25px 0 0 25px;
+  margin-left: 330px;
   font: 40px/1.5 Oswald;
   text-transform: uppercase;
   color: white;
   text-shadow: 2px 2px 6px rgba(50, 50, 50, 0.5);
 }
+.big-text p {
+  text-transform: none;
+  text-align: left;
+}
 .big-text span {
   font-size: 26px;
   text-transform: none;
+}
+.big-text i.fa {
+  margin: 0 30px;
+  transition: all 0.4s ease;
+}
+.big-text i.fa-envelope {
+  margin-left: 0;
+}
+.big-text i.fa-github {
+  margin-right: 0;
+}
+.big-text a i.fa {
+  color: white;
+}
+.big-text i.fa-twitter:hover {
+  color: #55acee;
+}
+.big-text i.fa-github:hover {
+  color: black;
+}
+.big-text i.fa-envelope:hover {
+  color: #ffff1a;
 }
 
 @media (max-width: 1020px) {
@@ -982,6 +1008,23 @@ span.tag {
   a.btn {
     font-size: 14px;
   }
+
+  .wrap p {
+    font-size: 16px;
+  }
+
+  .big-text {
+    margin-left: 280px;
+  }
+
+  .wrap {
+    width: 850px;
+  }
+
+  .wrap img {
+    width: 250px;
+    height: 250px;
+  }
 }
 @media (max-width: 930px) {
   .container {
@@ -993,9 +1036,65 @@ span.tag {
     width: 100%;
     margin-right: 0;
   }
-}
-@media (max-width: 930px) {
+
   .wrap {
-    display: none;
+    width: 700px;
+  }
+
+  .wrap img {
+    width: 230px;
+    height: 230px;
+  }
+
+  .big-text {
+    margin-left: 250px;
+    width: 450px;
+  }
+
+  .banner {
+    height: 350px;
+  }
+}
+@media (max-width: 760px) {
+  .wrap img {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .big-text {
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .banner {
+    height: 600px;
+  }
+
+  .wrap {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .banner {
+    height: 650px;
+  }
+}
+@media (max-width: 400px) {
+  .banner {
+    height: 750px;
+  }
+}
+@media (max-width: 340px) {
+  i.fa {
+    margin: 0 20px;
+  }
+
+  i.fa-envelope {
+    margin-left: 0;
+  }
+
+  i.fa-github {
+    margin-right: 0;
   }
 }
