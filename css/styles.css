@@ -868,7 +868,7 @@ nav li a:hover {
 
 .work h2 .detail {
   color: #afa0b8;
-  font-style: italic;
+  font-size: 18px;
 }
 
 .work li > div {
@@ -923,6 +923,12 @@ span.tag {
   margin-bottom: 14px;
   color: #555152;
   white-space: nowrap;
+}
+
+.location {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .work .link a {
