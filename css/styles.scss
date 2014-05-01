@@ -215,7 +215,7 @@ span.tag {
 }
 
 
-@media (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
 	h2 { font-size: 22px;}
 	p {font-size: 14px;}
 	a.btn {font-size:18px;}
@@ -225,7 +225,7 @@ span.tag {
 	.wrap img {width: 250px; height: 250px;}
 }
 
-@media (max-width: 930px) {
+@media screen and (max-width: 930px) {
 	.container { 
 		width: 90%;
 		max-width: 700px; 
@@ -244,7 +244,7 @@ span.tag {
 }
 
 
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
 	.wrap img {
 		float:none;
 		margin: 0 auto;
@@ -255,19 +255,19 @@ span.tag {
 	.wrap {width: 100%;}
 
 }
-@media (max-width: 520px) { 
+@media screen and (max-width: 520px) { 
 	h2 {font-size: 24px;}
 }
-@media (max-width: 450px) { 
+@media screen and (max-width: 450px) { 
 	.banner {height: 650px;}
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
 	.banner {height: 750px;}
 
 }
 
-@media (max-width: 340px) {
+@media screen and (max-width: 340px) {
 	i.fa { 
 		margin: 0 20px;
 	}
