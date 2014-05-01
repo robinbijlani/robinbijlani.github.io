@@ -930,7 +930,8 @@ span.tag {
 }
 
 .banner {
-  background: url("../img/title-red.jpg") no-repeat center #4b111a;
+  background: url("../img/title-trees2.jpg") no-repeat;
+  background-size: cover;
   height: 250px;
 }
 

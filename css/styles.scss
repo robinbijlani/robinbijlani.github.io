@@ -154,7 +154,9 @@ span.tag {
 .work .link a { white-space: nowrap; }
 
 .banner { 
-	background: url('../img/title-red.jpg') no-repeat center $crimson;
+	// background: url('../img/title-red.jpg') no-repeat center $crimson;
+	background: url('../img/title-trees2.jpg') no-repeat;
+	background-size: cover;
 	height: 250px;
 }
 
