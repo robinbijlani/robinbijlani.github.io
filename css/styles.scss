@@ -3,6 +3,7 @@
 
 $black: #2E2633; 
 $crimson: #4b111a;
+$green: #519548;
 
 
 body {
@@ -35,49 +36,54 @@ a.btn {
 	text-decoration:none;
 	text-align: center;
 	color: #fff;
-	background: #99173C; 
+	background: $green; 
 	padding: 8px 18px;
 	/*margin: 20px auto;*/
 	border-radius: 3px;
 	font-size: 18px;
+	transition: all 0.4s ease;
+}
+
+a.btn:hover {
+	background: darken($green, 7%);
 }
 
 a.btn i {margin-right: 10px;}
 
 .link { text-align: center; padding:10px;}
 
-header {
-	position: relative;
-}
+// header {
+// 	position: relative;
+// }
 
-nav { 
-	height: 60px;
-	font: 16px "Open Sans", sans-serif;
-	float:right;
-}
+// nav { 
+// 	height: 60px;
+// 	font: 16px "Open Sans", sans-serif;
+// 	float:right;
+// }
 
-nav ul {
-	margin: 0;
-	padding: 0;
-}
-nav li { 
-	float: left;
-	padding: 30px 20px;
-}
+// nav ul {
+// 	margin: 0;
+// 	padding: 0;
+// }
+// nav li { 
+// 	float: left;
+// 	padding: 30px 20px;
+// }
 
-nav li:last-child {
-	padding-right: 0;
-}
+// nav li:last-child {
+// 	padding-right: 0;
+// }
 
-nav li a {
-	text-decoration: none;
-	padding: 20px;
-}
+// nav li a {
+// 	text-decoration: none;
+// 	padding: 20px;
+// }
 
-nav li a:hover {
-	transition: color 0.5s linear;
-	color:darkred;
-}
+// nav li a:hover {
+// 	transition: color 0.5s linear;
+// 	color:darkred;
+// }
 
 /*section.work { background:url('img/brushed.png'); }*/
 
